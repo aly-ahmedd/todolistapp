@@ -1,12 +1,11 @@
-# TodoListApp
+# To-Do List Web Application
 
 ## Overview
-TodoListApp is a web application designed to help users organize their tasks efficiently and improve productivity. The application is simple, intuitive, and accessible from any device with a web browser.
+This project is a simple and intuitive web application designed to help users organize their tasks efficiently and improve productivity. The application is accessible from any device with a web browser.
 
 ## Features
 - Add, edit, and delete tasks
-- Mark tasks as completed
-- Responsive design for mobile and desktop
+- Responsive design for different screen sizes
 - Accessible from any device with a web browser
 
 ## Technologies Used
@@ -17,12 +16,87 @@ TodoListApp is a web application designed to help users organize their tasks eff
 - **Jinja2 Templating**: Rendering dynamic content in HTML
 
 ### Back-End
-- **Flask**: A micro web framework for Python used to build the web application
-- **SQLite**: A lightweight database used to store tasks
-- **SQLAlchemy**: An ORM (Object-Relational Mapping) library used to interact with the SQLite database
+- **Flask**: Micro web framework for Python
+- **SQLite**: Lightweight database for storing tasks
+- **SQLAlchemy**: ORM (Object-Relational Mapping) library for interacting with the SQLite database
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aly-ahmedd/todolistapp.git
-   cd todolistapp
+## Installation Instructions
+### Prerequisites
+- Python 3.x
+- Flask
+- Flask-SQLAlchemy
+
+### Steps
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Create a virtual environment**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the application**:
+    ```bash
+    python app.py
+    ```
+
+5. **Access the application**:
+    Open your web browser and go to `http://127.0.0.1:5000`
+
+## Usage
+### Adding a Task
+- Enter the task in the input field and click the "Add Task" button.
+
+### Editing a Task
+- Click the "Edit" link next to the task, modify the content, and click "Update Task".
+
+### Deleting a Task
+- Click the "Delete" link next to the task.
+
+## Test Cases
+### Example Test Case
+1. **Action**: Click on the "Add Task" button after entering a task.
+   - **Expected Result**: The task is added to the list and displayed on the home page.
+
+2. **Action**: Click on the "Edit" link next to a task, modify the content, and click "Update Task".
+   - **Expected Result**: The task content is updated and displayed on the home page.
+
+3. **Action**: Click on the "Delete" link next to a task.
+   - **Expected Result**: The task is removed from the list and no longer displayed on the home page.
+
+## Screenshots
+### Home Page
+!Home Page
+
+### Add Task
+!Add Task
+
+### Edit Task
+!Edit Task
+
+### Delete Task
+!Delete Task
+
+## Screencast
+A short screencast demonstrating the application can be found in other document in pebblepad.
+
+## Lessons Learned
+- Importance of responsive design for accessibility
+- Effective use of Flask and SQLAlchemy for web development
+- Value of thorough documentation and testing
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any questions or feedback, please contact [Aly Ahmed] at [aly.ahmed@iu-study.org].
+
