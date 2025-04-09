@@ -29,7 +29,7 @@ This project is a simple and intuitive web application designed to help users or
 ### Steps
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone <[repository-url](https://github.com/aly-ahmedd/todolistapp.git)>
     cd <repository-directory>
     ```
 
@@ -87,7 +87,7 @@ This project is a simple and intuitive web application designed to help users or
 !Delete Task
 
 ## Screencast
-A short screencast demonstrating the application can be found in other document in pebblepad.
+A short screencast demonstrating the application can be found in [other document in](https://atlas.pebblepad.co.uk/atlasspa/#/viewer/3361129/17424526780000000/38rHfM7zph7WmfH6HG4zn3gmxM?historyId=BUC2yblTgG&navId=F12D2AEC1ABAB99EA6E5505DC424190F) pebblepad.
 
 ## Lessons Learned
 - Importance of responsive design for accessibility
