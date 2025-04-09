@@ -30,7 +30,7 @@ This project is a simple and intuitive web application designed to help users or
 1. **Clone the repository**:
     ```bash
     git clone <[repository-url](https://github.com/aly-ahmedd/todolistapp.git)>
-    cd <repository-directory>
+    cd todo-list-app
     ```
 
 2. **Create a virtual environment**:
